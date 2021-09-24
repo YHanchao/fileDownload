@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(288deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 8px;
+    text-decoration: none;
+}
+
+.topbar {
+    height: 80px;
+}
+
+.icon {
+    height: 30px;
+}
+
+.contents {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.file {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    min-width: 360px;
+}
+
+.fileType {
+    width: 60px;
+    height: 60px;
+    margin-right: 5%;
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.file-name {
+    font-size: 1.2em;
+    margin-bottom: 3%
+}
+
+.file-href {
+    margin-top: 3px;
+    transition: all 0.3s;
+    margin-top: 5%;
+}
+
+.file-href:hover {
+    transform: scale(1.01);
+}
+
+.fileInfo {
+    display: block;
+}
+
+.button {
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.copyright {
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
