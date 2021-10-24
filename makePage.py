@@ -5,7 +5,9 @@ import time
 baseDir = 'files'
 icons = {
     'pdf':
-    'https://yan-blog.oss-cn-beijing.aliyuncs.com/images/file/images/pdf.png'
+    'https://yan-blog.oss-cn-beijing.aliyuncs.com/images/file/images/pdf.png',
+    'mp4':
+    'https://yan-blog.oss-cn-beijing.aliyuncs.com/images/file/images/mp4.png'
 }
 
 links = dict()
